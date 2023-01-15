@@ -1,0 +1,132 @@
+body {
+    background:#f1f1f1;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+/*icons bootstrap*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+/*google-fonts*/
+  @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Cormorant:ital,wght@1,600&family=Covered+By+Your+Grace&family=Fredoka+One&family=Raleway:wght@200&display=swap');
+/*fonts____
+
+font-family: 'Cabin Sketch', cursive;
+font-family: 'Cormorant', serif;
+font-family: 'Covered By Your Grace', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Raleway', sans-serif;
+*/
+
+.header{
+	position:relative;
+	height:25vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("https://i.imgur.com/Ca4kyZn.jpg");
+	background-position:center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	
+}
+.text{
+	position:absolute;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20pt;
+}
+.text font{
+		font-family: 'Fredoka One', cursive;
+}
+.wave{
+	position:absolute;
+	bottom:-1px;
+	width: 100%;
+	
+}
+.flex-items{
+	min-width:150px;
+	height:200px;
+	background:#FCC750;
+	margin: 5%;
+	padding: 3%;
+	border-radius:20px;
+}
+.flex-items img{
+	width: 70px;
+}
+.flex-boxes{
+	overflow-x:auto;
+	display: flex;
+}
+.con-text{
+	font-size: 5pt;
+}
+button{
+	border:none;
+	outline: none;
+	background: #f1f1f1;
+	width:100px;
+	height:30px;
+	border-radius:25px;
+}
+::-webkit-scrollbar{
+	border: none;
+}
+.im{
+	min-width: 200px;
+	overflow:auto; 
+}
+.flex-i img{
+	border-radius:0% 30% 70% 0%;
+}
+.flex-i{
+	background:#FCC750;
+	width: 100%;
+	height:30vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align:center;
+	font-size: 10pt;
+	position: relative;
+}
+.flex-i h3{
+	font-family: 'Fredoka One', cursive;
+	color: #fff;
+}
+.icon{
+	position:absolute;
+	top:3%;
+	right:3%;
+}
+.box{
+	background:#FCC750;
+	margin-left: 3%;
+	padding: 5%;
+	margin-right: 3%;
+	border-radius:25px;
+}
+::selection{
+	background: #FCC750;
+	color:white;
+}
+.video{
+	padding: 5%;
+	margin-top: 3%;
+}
+iframe{
+	border-radius: 10px;
+}
+.preloader{
+	height:100vh;
+	width: 100%;
+	background: #eee;
+	display:grid;
+	place-items: center;
+	position:fixed;
+	z-index: 10000;
+}
